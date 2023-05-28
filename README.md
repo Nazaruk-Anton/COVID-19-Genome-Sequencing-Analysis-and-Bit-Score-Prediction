@@ -42,12 +42,13 @@ In the final part of the project, different models are used to predict the bit s
 Feature Preparation: Create a feature dataframe and define the target variable.
 Data Normalization: Normalize the feature data using StandardScaler.
 Linear Regression: Fit a linear regression model to predict bit scores.
-Neural Network Regression: Train a multi-layer perceptron regression model to predict bit scores.
-Both linear regression and neural network models are used for feature prediction. The notebook requires pandas, numpy, scikit-learn, and tensorflow packages.
+The notebook requires pandas, numpy, scikit-learn, and tensorflow packages.
 
 # Conclusion 
 In conclusion, the analysis of the provided bit scores allowed us to determine the similarity between various sequences and the reference genome (NC_045512.2 Wuhan seafood market pneumonia virus isolate Wuhan-Hu-1). Higher bit scores indicated a stronger similarity, while negative scores suggested low alignment or similarity. By focusing on sequences with high bit scores, we can identify genome sequences closely related to the reference genome, which could be potential targets for further analysis and drug targeting.
 
 The K-means algorithm was chosen for this project as it is a simple and effective clustering algorithm that can partition gene expression data into groups with similar expression profiles. This information can provide insights into gene regulatory mechanisms, biomarker identification, and disease mechanisms. However, the selection of the K-means algorithm depends on various factors, such as the data characteristics, desired number of clusters, and project objectives. Other clustering algorithms or dimensionality reduction techniques could also be considered based on specific requirements as was demonstratred in the Part 3 of the project.
+
+In the Part 4, bit scores of the Sequences were predicted. By analyzing the bit scores, we can identify sequences with high similarity to the reference genome, which can help in tracing closely related genome sequences and potentially identifying a subsequence to target with a combative drug.
 
 It's important to note that while the bit scores and K-means analysis provide valuable insights, further analysis, such as phylogenetic studies and experimental validation, would be necessary to confirm the findings and assess the suitability of specific sequences as drug targets.
